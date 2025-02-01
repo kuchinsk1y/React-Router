@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# React Router Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Цей проект демонструє основи маршрутизації в React за допомогою бібліотеки `react-router-dom`. Він включає три прості сторінки, які можна переглядати, використовуючи навігацію без перезавантаження браузера.
 
-## Available Scripts
+## Опис
 
-In the project directory, you can run:
+Цей проєкт використовує React та `react-router-dom` для створення односторінкового додатку з маршрутизацією. Ви створите три сторінки: домашню сторінку, сторінку "Про нас" та сторінку "Контакти", а також організуєте навігацію між ними.
 
-### `npm start`
+## Особливості
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Три компоненти**: Home, About, Contact.
+- **Навігація**: використовується `NavLink` для створення навігаційних посилань, що виділяють активне посилання.
+- **Маршрутизація**: за допомогою компонентів `BrowserRouter`, `Route`, `Link` та `NavLink`.
+- **Перехід без перезавантаження**: навігація між сторінками здійснюється без перезавантаження браузера.
+- **Реалізація стилів**: мінімальна стилізація для створення простого та зручного інтерфейсу.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Технічні Деталі
 
-### `npm test`
+- **React**: Версія 18
+- **react-router-dom**: Для маршрутизації
+- **CSS**: Стилі для базової навігації
+- **Немає серверної частини**: Це клієнтський додаток.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Як запустити проект
 
-### `npm run build`
+### Крок 1: Клонуйте репозиторій
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone <url>
+cd react-router-demo
+```
+### Крок 2: Встановіть залежності
+Для встановлення всіх необхідних залежностей, виконайте команду: <br>
+```npm install```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Крок 3: Запустіть додаток
+Запустіть додаток локально на вашій машині:
+```npm start```
